@@ -311,23 +311,29 @@ main {
         display: grid;
         padding: 3rem;
         text-align: center;
-        @include for-tablet-landscape-up {  
+        @include for-tablet-portrait-up {  
           grid-template-columns: 1fr 1fr;
+          text-align: left;
+        }
+        @include for-tablet-portrait-up {  
+          grid-template-columns: 1fr 1fr 1fr 1fr;
           text-align: left;
         }
         @include for-desktop-up {  
           grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+          text-align: left;
         }
+      
         
       }
       .box-content-column {
         display: block;
         justify-content: center;
         align-items: center;
-        @include for-tablet-portrait-up {  
+       
+        @include for-desktop-up {  
           display: flex;
         }
-        
         .search {
           height: 60px;
           line-height: 60px;
@@ -424,9 +430,12 @@ main {
       display: flex;
     }
     .text-box {
-      max-width: 550px;
+      max-width: 100%;
       text-align: center;
       padding-bottom: 1rem;
+      @include  for-tablet-landscape-up { 
+        max-width: 550px;
+      }
       @include  for-desktop-up { 
         text-align: left;
         padding-bottom: 0;
