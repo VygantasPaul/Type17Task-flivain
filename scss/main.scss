@@ -14,10 +14,10 @@ body {
   padding-top: 10rem;
   
   @include  for-tablet-portrait-up  {
-    padding-top: 150px;
+    padding-top: 9rem;
   }
   @include  for-tablet-landscape-up {
-    padding-top: 250px;
+    padding-top: 15rem;
   }
   
 }
@@ -50,6 +50,7 @@ img {
   height: auto;
   display: block;
 }
+
 .block {
   display: block;
 }
@@ -139,6 +140,7 @@ header {
    
         a {
           border: none;
+          color:rgb(177, 177, 177);
           &:hover {
             border:none;
             color:rgb(102, 102, 102);
@@ -181,6 +183,10 @@ header {
       align-items: center;
     }
     .logo {
+     
+      a {
+        color:rgb(42, 42, 42);
+      }
       @include for-tablet-landscape-up {
         text-align: left;
       }
@@ -229,6 +235,7 @@ header {
       transition: 0.4s;
       font-weight: 600;
       position: relative;
+      color:rgb(121, 121, 121);
       &:after {
         content:'ㆍ'; 
         position:absolute;
@@ -241,6 +248,7 @@ header {
       
       &:hover {
         text-decoration: none;
+        color:rgb(42, 42, 42);
         &::after {
           color:rgb(16, 222, 153); 
           text-shadow: 8px 0 rgb(16, 222, 153), -8px 0 rgb(16, 222, 153); 

@@ -14,13 +14,13 @@ body {
 
 @media (min-width: 768px) {
   body {
-    padding-top: 150px;
+    padding-top: 9rem;
   }
 }
 
 @media (min-width: 920px) {
   body {
-    padding-top: 250px;
+    padding-top: 15rem;
   }
 }
 
@@ -162,6 +162,7 @@ header .navbar.navbar-top .navbar-inner {
 
 header .navbar.navbar-top li a {
   border: none;
+  color: #b1b1b1;
 }
 
 header .navbar.navbar-top li a:hover {
@@ -210,6 +211,10 @@ header .navbar > .container {
   display: block;
   flex-wrap: inherit;
   align-items: center;
+}
+
+header .navbar .logo a {
+  color: #2a2a2a;
 }
 
 @media (min-width: 920px) {
@@ -267,6 +272,7 @@ header .navbar a {
   transition: 0.4s;
   font-weight: 600;
   position: relative;
+  color: #797979;
 }
 
 header .navbar a:after {
@@ -282,6 +288,7 @@ header .navbar a:after {
 
 header .navbar a:hover {
   text-decoration: none;
+  color: #2a2a2a;
 }
 
 header .navbar a:hover::after {
