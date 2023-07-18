@@ -53,7 +53,6 @@ h2, h3, h4, h5 {
 }
 
 img {
-  max-width: 100%;
   height: auto;
   display: block;
 }
@@ -302,10 +301,17 @@ header .contact {
   background-color: aquamarine;
   border-radius: 2rem;
   transition: 0.4s;
-  padding: 1rem 2rem;
+  padding: 1rem 1.3rem;
   font-weight: 600;
   font-size: 1.13rem;
   cursor: pointer;
+}
+
+@media (min-width: 920px) {
+  header .contact {
+    margin-right: 2rem;
+    padding: 1rem 2rem;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -352,6 +358,7 @@ main .heading-banner h2 {
 }
 
 main .heading-banner img {
+  max-width: 100%;
   margin: auto;
 }
 
@@ -588,9 +595,16 @@ main .grid .photo-box {
 
 main .grid .photo-box img {
   border-radius: 50%;
-  width: 350px;
-  height: 350px;
+  width: 250px;
+  height: 250px;
   margin: auto;
+}
+
+@media (min-width: 920px) {
+  main .grid .photo-box img {
+    width: 350px;
+    height: 350px;
+  }
 }
 
 @media (min-width: 1200px) {
