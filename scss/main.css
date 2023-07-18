@@ -121,7 +121,7 @@ header .navbar .hamburger:after {
   content: '';
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 920px) {
   header .navbar .hamburger {
     display: none;
   }
@@ -301,7 +301,7 @@ header .contact {
   cursor: pointer;
 }
 
-@media (min-width: 920px) {
+@media (min-width: 1200px) {
   header .contact {
     margin-right: 2rem;
   }

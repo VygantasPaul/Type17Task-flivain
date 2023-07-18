@@ -104,8 +104,8 @@ header {
         color: transparent;
         content: '';
       }
-      @include  for-desktop-up { 
-        display: none;
+      @include for-tablet-landscape-up { 
+        display: none; 
       }
     }
     &.navbar-top {
@@ -258,7 +258,7 @@ header {
     font-weight: 600;
     font-size: 1.13rem;
     cursor: pointer;
-    @include for-tablet-landscape-up { 
+    @include for-desktop-up { 
       margin-right: 2rem;
     }
     @include for-desktop-up { 
