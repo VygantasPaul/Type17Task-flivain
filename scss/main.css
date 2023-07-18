@@ -132,10 +132,6 @@ header .navbar.navbar-top .navbar-inner {
   }
 }
 
-header .navbar.navbar-top .nav {
-  display: none;
-}
-
 @media (min-width: 768px) {
   header .navbar.navbar-top .nav.navbar-nav-center {
     padding-left: 7rem;
