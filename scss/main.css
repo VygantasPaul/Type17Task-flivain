@@ -116,8 +116,9 @@ header .navbar .hamburger:hover::after {
   text-shadow: none;
 }
 
-header .navbar .hamburger a:after {
+header .navbar .hamburger:after {
   color: transparent;
+  content: '';
 }
 
 @media (min-width: 1200px) {
@@ -256,7 +257,7 @@ header .navbar li {
   display: block;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 920px) {
   header .navbar li {
     display: inline;
   }
