@@ -278,6 +278,7 @@ main {
     }
     h2 {
       font-size: 2rem;
+      margin-bottom: 1rem;
       @include for-tablet-portrait-up { 
         font-size: 3rem;
       }

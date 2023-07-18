@@ -327,6 +327,7 @@ main .heading-banner {
 
 main .heading-banner h2 {
   font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
 @media (min-width: 768px) {
