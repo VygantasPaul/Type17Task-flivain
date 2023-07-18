@@ -85,11 +85,9 @@ header {
       left: 0;
       right: 0;
       width: 100%;
-      transition: all .5s ease-in-out;
       background-color: #fff;
       display: none;
-      
-      &.open {
+      &.open { 
         display: block;
         .nav {
           display: block;
