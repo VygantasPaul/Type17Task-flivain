@@ -253,8 +253,11 @@ header {
     padding: 1rem 2rem;
     font-weight: 600;
     font-size: 1.13rem;
-    margin-right: 2rem;
+   
     cursor: pointer;
+    @include for-tablet-landscape-up { 
+      margin-right: 2rem;
+    }
     @include for-desktop-up { 
       margin-right: 0;
     }

@@ -295,8 +295,13 @@ header .contact {
   padding: 1rem 2rem;
   font-weight: 600;
   font-size: 1.13rem;
-  margin-right: 2rem;
   cursor: pointer;
+}
+
+@media (min-width: 920px) {
+  header .contact {
+    margin-right: 2rem;
+  }
 }
 
 @media (min-width: 1200px) {
